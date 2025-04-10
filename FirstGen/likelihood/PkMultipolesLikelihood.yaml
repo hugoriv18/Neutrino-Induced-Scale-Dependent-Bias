@@ -1,0 +1,35 @@
+params:
+  h:
+    min: 0.6
+    max: 0.8
+    latex: h
+
+  omega_b:
+    min: 0.021
+    max: 0.023
+    latex: omega_b
+
+  omega_cdm:
+    min: 0.10
+    max: 0.14
+    latex: omega_cdm
+
+  ns:
+    min: 0.9
+    max: 1.0
+    latex: ns
+
+  log10As:
+    min: 2.9
+    max: 3.2
+    latex: log10As
+
+  Mnu:
+    min: 0.0
+    max: 0.3
+    latex: Mnu
+
+  b1:
+    min: 1.0
+    max: 3.0
+    latex: b1
