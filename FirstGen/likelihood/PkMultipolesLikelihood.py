@@ -3,7 +3,7 @@ from cobaya.likelihood import Likelihood
 from scipy.linalg import cho_factor, cho_solve
 from .get_model import compute_multipoles_model
 
-basepath = '/data/'
+basepath = '/path/to/data/'
 
 class PkMultipolesLikelihood(Likelihood):
     """
