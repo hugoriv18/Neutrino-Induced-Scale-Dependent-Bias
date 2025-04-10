@@ -1,7 +1,7 @@
 import numpy as np
 import camb
 from camb import model
-basepath = '/Users/hugor/OneDrive/Escritorio/NISDB/first_gen/data/'
+basepath = '/path/to/data/'
 
 def compute_multipoles_model(CosmoParams, zeff = 0.8, kmax = 0.1):
     """
